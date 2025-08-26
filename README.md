@@ -51,22 +51,26 @@ cd claude_code_app_template
 
 ### 启动项目任务
 
-#### 一句话完成项目设计与自动化生成
-```
-# claude code会严格遵循规则生成项目结构与文件/脚本按照新应用逻辑更新README.md与CLAUDE.md，并删除原本的根目录文件;
-# MCP工具选项二选一
-
-请严格遵守Claude_Code_Project_Architect.md与CLAUDE.md规定的规则，帮我创建一个用于实现<功能1,功能2,功能3...>的项目。本项目<需要安装适配MCP工具>/<不需要安装任何新MCP工具>。
-```
-
 #### 基础启动指令
 ```
 请基于[项目需求描述]生成完整的Claude Code项目架构
 ```
 
-#### 详细任务示例
+#### 单一功能项目设计与自动化生成
 ```
-# MCP工具选项二选一
+# claude code会严格遵循规则生成项目结构与文件/脚本按照新应用逻辑更新README.md与CLAUDE.md，并删除原本的根目录文件;
+# MCP工具选项二选一，代码使用选项二选一，原项目逻辑删除与否二选一
+
+请严格遵守Claude_Code_Project_Architect.md与CLAUDE.md规定的规则，帮我创建一个用于实现<特定功能>的项目。
+
+本项目<需要安装适配MCP工具>/<不需要安装任何新MCP工具>。
+本项目<需要引入代码实现完整功能>/<不需要引入任何代码实现完整功能>。
+首轮开发完成<删除>/<不删除>原CLAUDE.md，README.md与Claude_Code_Project_Architect.md，并更新本应用相关策略记忆文档CLAUDE.md与项目说明README.md
+```
+
+#### 多功能详细任务示例
+```
+# MCP工具选项二选一，代码使用选项二选一，原项目逻辑删除与否二选一
 
 我需要一个电商数据分析平台的项目架构，包含：
 - 数据采集模块
@@ -76,6 +80,8 @@ cd claude_code_app_template
 请生成完整的项目结构和必要的指令文件
 
 本项目<需要安装适配MCP工具>/<不需要安装任何新MCP工具>。
+本项目<需要引入代码实现完整功能>/<不需要引入任何代码实现完整功能>。
+首轮开发完成<删除>/<不删除>原CLAUDE.md，README.md与Claude_Code_Project_Architect.md，并更新本应用相关策略记忆文档CLAUDE.md与项目说明README.md
 ```
 
 ### 任务调整与优化
