@@ -53,9 +53,10 @@ cd claude_code_app_template
 
 #### 一句话完成项目设计与自动化生成
 ```
-# claude code会严格遵循规则生成项目结构与文件/脚本按照新应用逻辑更新README.md与CLAUDE.md，并删除原本的根目录文件
+# claude code会严格遵循规则生成项目结构与文件/脚本按照新应用逻辑更新README.md与CLAUDE.md，并删除原本的根目录文件;
+# MCP工具选项二选一
 
-请严格遵守Claude_Code_Project_Architect.md与CLAUDE.md规定的规则，帮我创建一个用于实现<功能1,功能2,功能3...>的项目。
+请严格遵守Claude_Code_Project_Architect.md与CLAUDE.md规定的规则，帮我创建一个用于实现<功能1,功能2,功能3...>的项目。本项目<需要安装适配MCP工具>/<不需要安装任何新MCP工具>。
 ```
 
 #### 基础启动指令
@@ -65,12 +66,16 @@ cd claude_code_app_template
 
 #### 详细任务示例
 ```
+# MCP工具选项二选一
+
 我需要一个电商数据分析平台的项目架构，包含：
 - 数据采集模块
 - 实时分析引擎  
 - 可视化仪表板
 - 用户权限管理
 请生成完整的项目结构和必要的指令文件
+
+本项目<需要安装适配MCP工具>/<不需要安装任何新MCP工具>。
 ```
 
 ### 任务调整与优化
