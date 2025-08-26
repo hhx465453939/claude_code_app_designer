@@ -35,19 +35,10 @@ claude config set language zh-CN
 #### 克隆项目模板
 ```bash
 # 克隆项目到本地
-git clone <your-template-repo>
+git clone https://github.com/hhx465453939/claude_code_app_designer.git
 # 修改文件夹名称为你的项目名：claude_code_app_template
 cd claude_code_app_template
 
-```
-
-#### 环境验证
-```bash
-# 验证项目结构
-npm run validate
-
-# 检查MCP工具配置
-npm run check-mcp
 ```
 
 ### 3. 核心文件说明
@@ -59,10 +50,14 @@ npm run check-mcp
 ## 使用指南
 
 ### 启动项目任务
+
 #### 一句话完成项目设计与自动化生成
 ```
+# claude code会严格遵循规则生成项目结构与文件/脚本按照新应用逻辑更新README.md与CLAUDE.md，并删除原本的根目录文件
+
 请严格遵守Claude_Code_Project_Architect.md与CLAUDE.md规定的规则，帮我创建一个用于实现<功能1,功能2,功能3...>的项目。
 ```
+
 #### 基础启动指令
 ```
 请基于[项目需求描述]生成完整的Claude Code项目架构
@@ -182,7 +177,7 @@ claude ping
 2. 当前项目状态
 3. 执行的具体指令
 
-## 项目结构
+## 项目结构(demo)
 
 ```
 claude_code_app_template/
